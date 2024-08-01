@@ -22,6 +22,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
+  font-size: x-large;
+}
+#item {
+  height: 40px;
 }
 
 .btn {
@@ -32,6 +36,8 @@ body {
   border-radius: 0.25em;
   cursor: pointer;
   outline: none;
+  height: 40px;
+  font-size: larger;
 }
 
 .btn:hover,
@@ -43,6 +49,7 @@ body {
   background: hsla(0, 93%, 45%, 0.13);
   border: 1px solid hsl(0, 96%, 29%);
   color: hsl(0, 100%, 40%);
+  font-size: 16px;
 }
 
 .btn.btn-danger:hover,

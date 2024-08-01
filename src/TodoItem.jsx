@@ -1,6 +1,6 @@
 export function TodoItem({ completed, id, title, toggleTodo, deleteTodo  }) {
   return (
-    <li>
+    <li style={{justifyContent:"space-between", minHeight:"50px"}}>
       <label>
         <input
           type="checkbox"
